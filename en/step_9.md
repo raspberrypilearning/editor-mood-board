@@ -1,22 +1,34 @@
-## What next?
+<h2 class="c-project-heading--task">Challenge: add a custom section</h2>
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/raspberrypi/web-intro) path, you should move on to the [Sell me something](https://projects.raspberrypi.org/en/projects/sell-me-something) project. In this project, you will make a webpage to promote a product or idea.
+--- task ---
+Extend your mood board by designing and adding one new section that matches your theme.
+--- /task ---
 
---- print-only ---
+--- task ---
+Try adding one extra section to `index.html` with your own content.
 
-![alt=""](images/sellmesomething.PNG)
+<div class="c-project-code">
 
---- /print-only ---
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 50
+line_highlights: 51,52,53,54,55
+---
+      </section>
+      <section class="wrap"> <!-- New custom row for your own themed content -->
+        <div class="hugefont">🌈</div> <!-- Placeholder emoji to replace with your own choice -->
+        <div class="hugefont">✨</div> <!-- Placeholder emoji to replace with your own choice -->
+        <div class="hugefont">🎶</div> <!-- Placeholder emoji to replace with your own choice -->
+      </section>
+    </main>
+--- /code ---
 
---- no-print ---
-
-<div>
-**Skateboarding**: [See inside](https://editor.raspberrypi.org/en/projects/skateboarding){:target="_blank"}
-<div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/skateboarding" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+--- /task ---
 
-
---- /no-print ---
-
-
+--- task ---
+**Test:** Preview your page and check that your new section is visible and clearly supports the mood you wanted to create.
+--- /task ---

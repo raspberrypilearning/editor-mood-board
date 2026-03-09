@@ -1,104 +1,32 @@
-## Add your content
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will fill in your layout with content to create the mood that you want. 
-</div>
-<div>
-![alt=""](images/step-four.PNG){:width="300px"}
-</div>
-</div>
+<h2 class="c-project-heading--task">Add your first emoji row</h2>
 
 --- task ---
-
-![alt=""](images/text-examples.png){:width="300px"}
-
-Add any **text** that you want to appear on your mood board. 
-
-**Choose:** Your text could be any combination of:
-+ Short words or phrases that fit with your topic
-+ Nonsense placeholder text ('lorem ipsum') to give an idea of what the text would look like
-+ An inspirational quote
-
-Don't spend too much time on the text details. A mood board just sets the mood for your project. 
-
-[[[add-placeholder-text]]]
-
-[[[full-width-quote]]]
-
+Fill the top row with large emoji to set the first part of your mood.
 --- /task ---
 
 --- task ---
+Add emoji to the first `<section class="wrap">`.
 
-![Examples of images and emoji in a strip.](images/image-emoji-strip.png)
-
-**Choose:** Add images and/or emojis to make your webpage look interesting. 
-
-The starter project includes lots of images that you could use on your mood board. 
-
-[[[rpfeditor-image-library]]]
-
-[[[huge-emoji]]]
-
-There are lots of different emojis to choose from.
-
-[[[choose-an-emoji]]]
-
-**Tip:** It is fine to use the same image or emoji multiple times on your webpage to quickly fill your page. 
-
---- /task ---
-
---- task ---
-
-**Debug:**
-
---- collapse ---
----
-title: My content has different heights and it looks odd
----
-
-When you add content that has different heights, the boxes around them will be different heights. 
-
-![alt=""](images/different-heights.png)
-
-You can change this by adding in the `tile` class:
+<div class="c-project-code">
 
 --- code ---
 ---
-language: HTML
+language: html
 filename: index.html
-line_numbers: false
- 
+line_numbers: true
+line_number_start: 34
+line_highlights: 35,36,37
 ---
-<div class="tile">
+<section class="wrap"> <!-- Top row for icon content -->
+  <div class="hugefont">🐅</div> <!-- Tiger emoji adds wildlife mood -->
+  <div class="hugefont">🐘</div> <!-- Elephant emoji reinforces the theme -->
+  <div class="hugefont">🐂</div> <!-- Bull emoji completes the first trio -->
+</section>
 --- /code ---
 
-`tile` sets a specific height for each of the elements that have this class. To adjust the height, change it in the `style.css` file.
-
---- code ---
----
-language: CSS
-filename: style.css
-line_numbers: false
- 
----
-.tile {
-  height: 9.4rem;
-}
---- /code ---
-
-Add the `tile` class to make every element with that class the same height.
-
-![alt=""](images/same-height.png)
-
---- /collapse ---
-
+</div>
 --- /task ---
 
 --- task ---
-
-**Test:** Have a look at your webpage. Make sure you are happy with the content on your page. 
-
-[[[image-not-displayed]]]
-
+**Test:** Run your project and check that three large emoji appear in the top row.
 --- /task ---

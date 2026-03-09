@@ -1,55 +1,37 @@
-## Choose a layout for your mood board
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will design the overall layout of your mood board and add content sections with placeholder content. 
-</div>
-<div>
-![A vibrant webpage that is blue, yellow, and red. The webpage has sample text and two rows of tiles.](images/step-three.PNG){:width="300px"}
-</div>
-</div>
+<h2 class="c-project-heading--task">Create a three-row layout</h2>
 
 --- task ---
-
-You will create several sections of content for your mood board and can use a combination of text, images, or emojis. 
-
-Think about the sections you want to add. You could sketch your layout on paper if you prefer. 
-
+Replace the single placeholder section with three content rows to structure your mood board.
 --- /task ---
 
 --- task ---
+Update the `<main>` area in `index.html`.
 
-![A strip of three images to show different sets of three sections and different colour palettes.](images/example-layouts.png)
+<div class="c-project-code">
 
-Add at least three sections to `<main></main>` in your mood board. You can add more if you like. 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 33
+line_highlights: 34,37,40
+---
+<main>
+  <section class="wrap"> <!-- Top row for icon content -->
+  </section>
 
-[[[full-width-section]]]
+  <section class="wrap page"> <!-- Middle row for photos -->
+  </section>
 
-[[[side-by-side-section]]]
+  <section class="wrap"> <!-- Bottom row for icon content -->
+  </section>
+</main>
+--- /code ---
 
-[[[wrapped-regular-width]]]
-
-[[[three-text-tiles]]]
-
-[[[text-image-text]]]
-
-[[[wrapped-wide-narrow]]]
-
-[[[full-width-quote]]]
-
-[[[web-wrap-gap]]]
-
+</div>
 --- /task ---
 
 --- task ---
-
-**Test:** Check that you are happy with the layout of the page. Don't worry about the actual content or images yet. You will add those in the next step.
-
-**My webpage isn't displaying correctly**
-
-[[[incorrect-tags]]]
-
-[[[mismatched-tags]]]
-
+**Test:** Preview the page and confirm you can see three separate horizontal rows with spacing between them.
 --- /task ---
-

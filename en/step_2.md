@@ -1,99 +1,71 @@
-## Design your mood board
+<h2 class="c-project-heading--task">Set your page title and theme</h2>
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will decide on a topic for your mood board and choose a matching colour palette and fonts. You will also need to check that your palette has good colour contrast so that it is accessible. 
+--- task ---
+Update your starter page so the title, heading, footer, and colour theme match your mood board idea.
+--- /task ---
+
+--- task ---
+Edit `index.html` so your page name and theme are ready.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 1
+line_highlights: 9,23,26,29,41
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Title shown in web browsers-->
+    <title>Travel inspiration 🐅</title> <!-- Updates the browser tab text for your project -->
+
+    <!-- Import fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Codystar:wght@300&family=Creepster&family=Eater&family=Faster+One&family=Finger+Paint&family=Flavors&family=Freckle+Face&family=Fredericka+the+Great&family=Gorditas&family=Hanalei+Fill&family=Lobster&family=Luckiest+Guy&family=Miltonian&family=Monoton&family=Ranchers&family=Rubik+Moonrocks&family=Shrikhand&family=Spirax&family=Titan+One&Bebas+Neue&Cairo&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Include CSS style file -->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="animation.css" rel="stylesheet" type="text/css" />
+    <link href="land-animals.css" rel="stylesheet" type="text/css" /> <!-- Switches to a themed palette file -->
+  </head>
+
+  <body class="tertiary"> <!-- Applies your chosen background and text colour set -->
+    <!-- The page header code goes here -->
+    <header class="border-bottom secondary">
+      <h1>Travel Inspiration</h1> <!-- Shows your project title on the page -->
+    </header>
+
+    <!-- The main content for the web page goes between the main tags -->
+    <main>
+      <section>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </section>
+    </main>
+
+    <!-- Footer code goes here -->
+    <footer class="border-top secondary">
+      <p>Colours of India</p> <!-- Adds a matching footer caption for the mood -->
+    </footer>
+  </body>
+</html>
+--- /code ---
+
 </div>
-<div>
-![A summer party webpage.](images/step-two.PNG){:width="300px"}
-</div>
-</div>
-
---- task ---
-
-What is the topic of your mood board? 
-
-+ 🎉 **Party**: For a specific occasion or theme
-+ 🎨 **Artwork**: Book cover, poster, flyer, comic book
-+ 🥤 **Logo** or **product** design 
-+ 🛏️ **Decorate a space**: Classroom, maker space, cafe
-+ 🥻 **Fashion design**: Glasses frames, sari, bag
-+ 🌳 **Inspired by nature**: Terrarium, outside space
-+ 🐠 **Inspired by animals**: Fish tank, tropical rainforest 
-+ 🤖 **Character** design or world **building**
-
-For the project, you need to make a webpage that is visually appealing and sets a mood.
-
---- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Your webpage should not contain any <span style="color: #0faeb0">**personal information**</span> that can reveal your identity and/or location. Be very careful about who you share personal information with.  
-</p>
-
---- task ---
-
-Open the [mood board starter project](https://editor.raspberrypi.org/en/projects/mood-board-starter){:target="_blank"}.
-
 --- /task ---
 
 --- task ---
-
-Change the `<title>` element text to the title of your page. For example `Summer party`.
-
---- /task ---
-
---- task ---
-
-Change the `<h1>` heading of your mood board to match your topic. You can use the same text that you used for your `<title>`.
-
---- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Graphic designers, interior designers, industrial designers, photographers, user interface designers, and other creative artists**</span> use mood boards to visually illustrate the style they wish to pursue. Amateur and professional designers may use mood boards as an aid for more subjective purposes, such as how they want to decorate their bedroom or the vibe they want to convey through their fashion.
-</p>
-
-Your mood board will use a colour palette so that it looks appealing with colours that work well together.  
-
-[[[web-colour-palette-variables]]]
-
---- task ---
-
-**Choose:** Set the colour palette for your mood board. 
-
-Choose one of the 20 included colour palettes.
-
-![Examples of colour palettes in strips.](images/palette-examples.png)
-
-[[[hex-colour-palettes]]]
-
---- /task ---
-
---- task ---
-
-**Test:** Check that your webpage uses your new colour palette. 
-
---- /task ---
-
---- task ---
-
-![Examples of fonts in strips.](images/font-examples.png)
-
-The starter project has matching font variables that have been set up for you. You can change the fonts used in these variables if you want to use a different style.   
-
-[[[included-fonts]]]
-[[[web-fonts]]]
-[[[google-fonts]]]
-
---- /task ---
-
---- task ---
-
-**Test:** Check that your webpage uses your new fonts, if you have added them. 
-
---- /task ---
-
---- task ---
-
-Now that you have decided the theme for your mood board webpage, and created your colours and fonts, it is a good idea to save your project. 
-
+**Test:** Run the project and check that the browser tab title, page heading, footer text, and background colours have all changed.
 --- /task ---
