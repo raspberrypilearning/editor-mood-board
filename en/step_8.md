@@ -1,32 +1,69 @@
-<h2 class="c-project-heading--task">Add depth with shadows</h2>
+<h2 class="c-project-heading--task">Improve spacing in your layout</h2>
 
 --- task ---
-Enhance your photo strip by adding a shadow effect that makes each image stand out.
+Adjust your CSS spacing rules so the rows feel cleaner and easier to read.
 --- /task ---
 
 --- task ---
-Add the `shadow` class to each photo in your middle row.
+Edit `style.css` to add gaps and tighten item sizes in wrapped rows.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 40
-line_highlights: 41, 42, 43
+line_number_start: 153
+line_highlights: 162, 178, 179, 194
 ---
-<section class="wrap page"> <!-- Middle row for photos -->
-  <img class="photo shadow" src="IMG_2884.PNG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="IMG_2875.PNG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="IMG_2868.PNG"> <!-- Adds drop shadow for stronger depth -->
-</section>
+.wrap {
+  /* Make content wrap over multiple rows */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 1rem 1rem; /* Adds visible space between wrapped items */
+}
+
+/* For creating fancy boxes */
+
+.dashed-border {
+  border: 0.25rem dashed var(--detail2);
+}
+
+.solid-border {
+  border: 0.25rem solid var(--detail2);
+}
+
+/* Styles for the div tags that are inside a .wrap class */
+
+.wrap > div {
+  width: 12rem; /* Narrows each tile so three items fit comfortably */
+  padding: 0rem; /* Removes extra internal spacing around emoji blocks */
+}
+
+/* Styles for the img tags that are inside a .wrap class */
+
+.wrap > img {
+  width: 14rem;
+  display: block;
+}
+
+/* Styles for the p tags that are inside a .wrap class */
+
+.wrap > p,
+.wrap > span {
+  width: 14rem;
+  display: block;
+  padding: 0rem; /* Keeps text and span blocks aligned with image spacing */
+}
 --- /code ---
 
 </div>
 --- /task ---
 
 --- task ---
-**Test:** Run your project and confirm each image in the middle row has a visible shadow.
+**Test:** Refresh your webpage and check that the rows have clearer spacing with less crowding between items.
 --- /task ---

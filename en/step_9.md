@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Challenge: add a custom section</h2>
+<h2 class="c-project-heading--task">Add depth with shadows</h2>
 
 --- task ---
-Extend your mood board by designing and adding one new section that matches your theme.
+Enhance your photo strip by adding a shadow effect that makes each image stand out.
 --- /task ---
 
 --- task ---
-Try adding one extra section to `index.html` with your own content.
+Add the `shadow` class to each photo in your middle row.
 
 <div class="c-project-code">
 
@@ -14,21 +14,19 @@ Try adding one extra section to `index.html` with your own content.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 50
-line_highlights: 51, 52, 53, 54, 55
+line_number_start: 40
+line_highlights: 41, 42, 43
 ---
-      </section>
-      <section class="wrap"> <!-- New custom row for your own themed content -->
-        <div class="hugefont">🌈</div> <!-- Placeholder emoji to replace with your own choice -->
-        <div class="hugefont">✨</div> <!-- Placeholder emoji to replace with your own choice -->
-        <div class="hugefont">🎶</div> <!-- Placeholder emoji to replace with your own choice -->
-      </section>
-    </main>
+<section class="wrap page"> <!-- Middle row for photos -->
+  <img class="photo shadow" src="IMG_2884.PNG"> <!-- Adds drop shadow for stronger depth -->
+  <img class="photo shadow" src="IMG_2875.PNG"> <!-- Adds drop shadow for stronger depth -->
+  <img class="photo shadow" src="IMG_2868.PNG"> <!-- Adds drop shadow for stronger depth -->
+</section>
 --- /code ---
 
 </div>
 --- /task ---
 
 --- task ---
-**Test:** Preview your page and check that your new section is visible and clearly supports the mood you wanted to create.
+**Test:** Run your project and confirm each image in the middle row has a visible shadow.
 --- /task ---

@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Complete the bottom row</h2>
+<h2 class="c-project-heading--task">Add a photo strip</h2>
 
 --- task ---
-Finish your layout by adding a second emoji row that balances the page design.
+Populate the middle row with images to add visual detail to your mood board.
 --- /task ---
 
 --- task ---
-Add three more emoji to the final section.
+Insert three images into the middle section.
 
 <div class="c-project-code">
 
@@ -14,13 +14,13 @@ Add three more emoji to the final section.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 46
-line_highlights: 47, 48, 49
+line_number_start: 40
+line_highlights: 41, 42, 43
 ---
-<section class="wrap"> <!-- Bottom row for icon content -->
-  <div class="hugefont">🛕</div> <!-- Temple emoji links to destination landmarks -->
-  <div class="hugefont">🥻</div> <!-- Clothing emoji adds culture details -->
-  <div class="hugefont">🛺</div> <!-- Tuk-tuk emoji adds travel energy -->
+<section class="wrap page"> <!-- Middle row for photos -->
+  <img class="photo" src="IMG_2884.PNG"> <!-- Temple photo in polaroid style -->
+  <img class="photo" src="IMG_2875.PNG"> <!-- Street photo in polaroid style -->
+  <img class="photo" src="IMG_2868.PNG"> <!-- Market photo in polaroid style -->
 </section>
 --- /code ---
 
@@ -28,5 +28,5 @@ line_highlights: 47, 48, 49
 --- /task ---
 
 --- task ---
-**Test:** Run your project and check that the page now has an emoji row, a photo row, and a second emoji row.
+**Test:** Preview your page and confirm the middle row shows three photos with the printed-photo styling.
 --- /task ---
