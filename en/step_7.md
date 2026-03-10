@@ -15,7 +15,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 153
-line_highlights: 162,178,179,194
+line_highlights: 162, 178, 179, 194
 ---
 .wrap {
   /* Make content wrap over multiple rows */

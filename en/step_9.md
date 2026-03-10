@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 50
-line_highlights: 51,52,53,54,55
+line_highlights: 51, 52, 53, 54, 55
 ---
       </section>
       <section class="wrap"> <!-- New custom row for your own themed content -->

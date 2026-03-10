@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 40
-line_highlights: 41,42,43
+line_highlights: 41, 42, 43
 ---
 <section class="wrap page"> <!-- Middle row for photos -->
   <img class="photo shadow" src="IMG_2884.PNG"> <!-- Adds drop shadow for stronger depth -->
