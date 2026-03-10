@@ -10,9 +10,9 @@ last_tested: "2021-03-26"
 steps:
   - title: Build a mood board webpage
   - title: Set your page title and theme
-  - title: Create a three-row layout
     completion:
       - engaged
+  - title: Create a three-row layout
   - title: Add your first emoji row
   - title: Add a photo strip
   - title: Complete the bottom row
