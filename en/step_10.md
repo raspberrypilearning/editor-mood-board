@@ -1,32 +1,27 @@
-<h2 class="c-project-heading--task">Challenge: add a custom section</h2>
+<h2 class="c-project-heading--task">Challenge!</h2>
 
 --- task ---
-Extend your mood board by designing and adding one new section that matches your theme.
+Extend your mood board by designing and adding one new section that matches your theme. Try adding one extra section to `index.html` with your own content.
 --- /task ---
 
 --- task ---
-Try adding one extra section to `index.html` with your own content.
+Add a row of three new emoji that match your theme.
+--- /task ---
 
-<div class="c-project-code">
+--- task ---
+Add a short quote, slogan, or sentence about your mood board.
+--- /task ---
 
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 50
-line_highlights: 51, 52, 53, 54, 55
----
-      </section>
-      <section class="wrap"> <!-- New custom row for your own themed content -->
-        <div class="hugefont">🌈</div> <!-- Placeholder emoji to replace with your own choice -->
-        <div class="hugefont">✨</div> <!-- Placeholder emoji to replace with your own choice -->
-        <div class="hugefont">🎶</div> <!-- Placeholder emoji to replace with your own choice -->
-      </section>
-    </main>
---- /code ---
+--- task ---
+Add another photo to make your gallery longer.
+--- /task ---
 
-</div>
+--- task ---
+Use a different border or shadow class on one section to make it stand out.
+--- /task ---
+
+--- task ---
+Create a new heading for your extra section.
 --- /task ---
 
 --- task ---
