@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 46
-line_highlights: 47,48,49
+line_highlights: 47, 48, 49
 ---
 <section class="wrap"> <!-- Bottom row for icon content -->
   <div class="hugefont">🛕</div> <!-- Temple emoji links to destination landmarks -->

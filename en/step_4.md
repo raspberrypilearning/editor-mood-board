@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 34
-line_highlights: 35,36,37
+line_highlights: 35, 36, 37
 ---
 <section class="wrap"> <!-- Top row for icon content -->
   <div class="hugefont">🐅</div> <!-- Tiger emoji adds wildlife mood -->

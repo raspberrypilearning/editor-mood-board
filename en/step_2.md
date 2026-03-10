@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 9,23,26,29,41
+line_highlights: 9, 23, 26, 29, 41
 ---
 <!DOCTYPE html>
 <html lang="en">

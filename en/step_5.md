@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 40
-line_highlights: 41,42,43
+line_highlights: 41, 42, 43
 ---
 <section class="wrap page"> <!-- Middle row for photos -->
   <img class="photo" src="IMG_2884.PNG"> <!-- Temple photo in polaroid style -->

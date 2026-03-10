@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 33
-line_highlights: 34,37,40
+line_highlights: 34, 37, 40
 ---
 <main>
   <section class="wrap"> <!-- Top row for icon content -->
