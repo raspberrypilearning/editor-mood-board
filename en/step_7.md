@@ -1,69 +1,32 @@
-<h2 class="c-project-heading--task">Improve spacing in your layout</h2>
+<h2 class="c-project-heading--task">Complete the bottom row</h2>
 
 --- task ---
-Adjust your CSS spacing rules so the rows feel cleaner and easier to read.
+Finish your layout by adding a second emoji row that balances the page design.
 --- /task ---
 
 --- task ---
-Edit `style.css` to add gaps and tighten item sizes in wrapped rows.
+Add three more emoji to the final section.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 153
-line_highlights: 162, 178, 179, 194
+line_number_start: 46
+line_highlights: 47, 48, 49
 ---
-.wrap {
-  /* Make content wrap over multiple rows */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  gap: 1rem 1rem; /* Adds visible space between wrapped items */
-}
-
-/* For creating fancy boxes */
-
-.dashed-border {
-  border: 0.25rem dashed var(--detail2);
-}
-
-.solid-border {
-  border: 0.25rem solid var(--detail2);
-}
-
-/* Styles for the div tags that are inside a .wrap class */
-
-.wrap > div {
-  width: 12rem; /* Narrows each tile so three items fit comfortably */
-  padding: 0rem; /* Removes extra internal spacing around emoji blocks */
-}
-
-/* Styles for the img tags that are inside a .wrap class */
-
-.wrap > img {
-  width: 14rem;
-  display: block;
-}
-
-/* Styles for the p tags that are inside a .wrap class */
-
-.wrap > p,
-.wrap > span {
-  width: 14rem;
-  display: block;
-  padding: 0rem; /* Keeps text and span blocks aligned with image spacing */
-}
+<section class="wrap"> <!-- Bottom row for icon content -->
+  <div class="hugefont">🛕</div> <!-- Temple emoji links to destination landmarks -->
+  <div class="hugefont">🥻</div> <!-- Clothing emoji adds culture details -->
+  <div class="hugefont">🛺</div> <!-- Tuk-tuk emoji adds travel energy -->
+</section>
 --- /code ---
 
 </div>
 --- /task ---
 
 --- task ---
-**Test:** Refresh your webpage and check that the rows have clearer spacing with less crowding between items.
+**Test:** Run your project and check that the page now has an emoji row, a photo row, and a second emoji row.
 --- /task ---

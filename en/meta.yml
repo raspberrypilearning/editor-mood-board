@@ -9,7 +9,8 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Build a mood board webpage
-  - title: Set your page title and theme
+  - title: Update your page text
+  - title: Apply your colour theme
     completion:
       - engaged
   - title: Create a three-row layout
