@@ -18,9 +18,9 @@ line_number_start: 40
 line_highlights: 41, 42, 43
 ---
 <section class="wrap page"> <!-- Middle row for photos -->
-  <img class="photo" src="IMG_2884.PNG"> <!-- Temple photo in polaroid style -->
-  <img class="photo" src="IMG_2875.PNG"> <!-- Street photo in polaroid style -->
-  <img class="photo" src="IMG_2868.PNG"> <!-- Market photo in polaroid style -->
+  <img class="photo" src="sunset.JPG"> <!-- Sunset photo in polaroid style -->
+  <img class="photo" src="drone.JPG"> <!-- Drone photo in polaroid style -->
+  <img class="photo" src="pansies.JPG"> <!-- Flower photo in polaroid style -->
 </section>
 --- /code ---
 

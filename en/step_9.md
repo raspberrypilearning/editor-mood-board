@@ -18,9 +18,9 @@ line_number_start: 40
 line_highlights: 41, 42, 43
 ---
 <section class="wrap page"> <!-- Middle row for photos -->
-  <img class="photo shadow" src="IMG_2884.PNG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="IMG_2875.PNG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="IMG_2868.PNG"> <!-- Adds drop shadow for stronger depth -->
+  <img class="photo shadow" src="sunset.JPG"> <!-- Adds drop shadow for stronger depth -->
+  <img class="photo shadow" src="drone.JPG"> <!-- Adds drop shadow for stronger depth -->
+  <img class="photo shadow" src="pansies.JPG"> <!-- Adds drop shadow for stronger depth -->
 </section>
 --- /code ---
 
