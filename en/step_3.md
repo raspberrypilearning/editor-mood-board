@@ -5,7 +5,7 @@ Choose a theme stylesheet and apply colour classes so the page picks up your moo
 --- /task ---
 
 --- task ---
-Edit the theme files and classes in `index.html`.
+Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 
 <div class="c-project-code">
 
@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 25, 28, 30, 40
+line_highlights: 23, 26
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +44,7 @@ line_highlights: 25, 28, 30, 40
 
   <body class="tertiary"> <!-- Applies your chosen background and text colours -->
     <!-- The page header code goes here -->
-    <header class="border-bottom secondary"> <!-- Gives the header a themed panel colour -->
+    <header class="border-bottom secondary">
       <h1>Travel Inspiration</h1>
     </header>
 
@@ -56,7 +56,7 @@ line_highlights: 25, 28, 30, 40
     </main>
 
     <!-- Footer code goes here -->
-    <footer class="border-top secondary"> <!-- Matches the footer colours to the header -->
+    <footer class="border-top secondary">
       <p>Colours of India</p>
     </footer>
   </body>
