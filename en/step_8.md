@@ -15,7 +15,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 155
-line_highlights: 162, 178, 179, 195
+line_highlights: 162, 178, 179
 ---
 .wrap {
   /* Make content wrap over multiple rows */
@@ -57,7 +57,6 @@ line_highlights: 162, 178, 179, 195
 .wrap > span {
   width: 14rem;
   display: block;
-  padding: 0rem; /* Keeps text and span blocks aligned with image spacing */
 }
 --- /code ---
 
