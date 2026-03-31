@@ -1,29 +1,22 @@
-<h2 class="c-project-heading--task">Add depth with shadows</h2>
+<h2 class="c-project-heading--task">Challenge!</h2>
 
 ### Step 1
-Enhance your photo strip by adding a shadow effect that makes each image stand out.
+Extend your mood board by designing and adding one new section that matches your theme. Try adding one extra section to `index.html` with your own content.
 
 ### Step 2
-Add the `shadow` class to each photo in your middle row.
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 40
-line_highlights: 41, 42, 43
----
-<section class="wrap page"> <!-- Middle row for photos -->
-  <img class="photo shadow" src="sunset.JPG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="drone.JPG"> <!-- Adds drop shadow for stronger depth -->
-  <img class="photo shadow" src="pansies.JPG"> <!-- Adds drop shadow for stronger depth -->
-</section>
---- /code ---
-
-</div>
+Add a row of three new emoji that match your theme.
 
 ### Step 3
-**Test:** Run your project and confirm each image in the middle row has a visible shadow.
+Add a short quote, slogan, or sentence about your mood board.
+
+### Step 4
+Add another photo to make your gallery longer.
+
+### Step 5
+Use a different border or shadow class on one section to make it stand out.
+
+### Step 6
+Create a new heading for your extra section.
+
+### Step 7
+**Test:** Preview your page and check that your new section is visible and clearly supports the mood you wanted to create.
