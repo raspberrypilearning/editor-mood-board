@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Update your page text</h2>
+<h2 class="c-project-heading--task">Apply your colour theme</h2>
 
 ### Step 1
-Change the browser title, page heading, and footer text so they match your mood board idea.
+Choose a theme stylesheet and apply colour classes so the page picks up your mood board palette.
 
 ### Step 2
-Edit the text in `index.html`.
+Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 
 <div class="c-project-code">
 
@@ -14,7 +14,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 9, 29, 41
+line_highlights: 23, 26
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,7 @@ line_highlights: 9, 29, 41
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Title shown in web browsers -->
-    <title>Travel inspiration 🐅</title> <!-- Sets the text shown in the browser tab -->
+    <title>Travel inspiration 🐅</title>
 
     <!-- Import fonts from Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,13 +38,13 @@ line_highlights: 9, 29, 41
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="animation.css" rel="stylesheet" type="text/css" />
-    <link href="land-animals.css" rel="stylesheet" type="text/css" />
+    <link href="land-animals.css" rel="stylesheet" type="text/css" /> <!-- Loads one of the starter colour themes -->
   </head>
 
-  <body>
+  <body class="tertiary"> <!-- Applies your chosen background and text colours -->
     <!-- The page header code goes here -->
     <header class="border-bottom secondary">
-      <h1>Travel Inspiration</h1> <!-- Shows your mood board title on the page -->
+      <h1>Travel Inspiration</h1>
     </header>
 
     <!-- The main content for the web page goes between the main tags -->
@@ -56,7 +56,7 @@ line_highlights: 9, 29, 41
 
     <!-- Footer code goes here -->
     <footer class="border-top secondary">
-      <p>Colours of India</p> <!-- Adds a short caption to match the theme -->
+      <p>Colours of India</p>
     </footer>
   </body>
 </html>
@@ -65,4 +65,4 @@ line_highlights: 9, 29, 41
 </div>
 
 ### Step 3
-**Test:** Run the project and check that the browser tab title, page heading, and footer text have changed.
+**Test:** Run the project and check that the page background, header, and footer use your chosen theme colours.

@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Add your first emoji row</h2>
+<h2 class="c-project-heading--task">Add a photo strip</h2>
 
 ### Step 1
-Fill the top row with large emoji to set the first part of your mood.
+Populate the middle row with images to add visual detail to your mood board.
 
 ### Step 2
-Add emoji to the first `<section class="wrap">`.
+Insert three images into the middle section.
 
 <div class="c-project-code">
 
@@ -13,17 +13,17 @@ Add emoji to the first `<section class="wrap">`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 34
-line_highlights: 35, 36, 37
+line_number_start: 40
+line_highlights: 41, 42, 43
 ---
-<section class="wrap"> <!-- Top row for icon content -->
-  <div class="hugefont">🐅</div> <!-- Tiger emoji adds wildlife mood -->
-  <div class="hugefont">🐘</div> <!-- Elephant emoji reinforces the theme -->
-  <div class="hugefont">🐂</div> <!-- Bull emoji completes the first trio -->
+<section class="wrap page"> <!-- Middle row for photos -->
+  <img class="photo" src="sunset.JPG"> <!-- Sunset photo in polaroid style -->
+  <img class="photo" src="drone.JPG"> <!-- Drone photo in polaroid style -->
+  <img class="photo" src="pansies.JPG"> <!-- Flower photo in polaroid style -->
 </section>
 --- /code ---
 
 </div>
 
 ### Step 3
-**Test:** Run your project and check that three large emoji appear in the top row.
+**Test:** Preview your page and confirm the middle row shows three photos with the printed-photo styling.

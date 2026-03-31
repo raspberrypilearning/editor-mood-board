@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Add a photo strip</h2>
+<h2 class="c-project-heading--task">Complete the bottom row</h2>
 
 ### Step 1
-Populate the middle row with images to add visual detail to your mood board.
+Finish your layout by adding a second emoji row that balances the page design.
 
 ### Step 2
-Insert three images into the middle section.
+Add three more emoji to the final section.
 
 <div class="c-project-code">
 
@@ -13,17 +13,17 @@ Insert three images into the middle section.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 40
-line_highlights: 41, 42, 43
+line_number_start: 46
+line_highlights: 47, 48, 49
 ---
-<section class="wrap page"> <!-- Middle row for photos -->
-  <img class="photo" src="sunset.JPG"> <!-- Sunset photo in polaroid style -->
-  <img class="photo" src="drone.JPG"> <!-- Drone photo in polaroid style -->
-  <img class="photo" src="pansies.JPG"> <!-- Flower photo in polaroid style -->
+<section class="wrap"> <!-- Bottom row for icon content -->
+  <div class="hugefont">🛕</div> <!-- Temple emoji links to destination landmarks -->
+  <div class="hugefont">🥻</div> <!-- Clothing emoji adds culture details -->
+  <div class="hugefont">🛺</div> <!-- Tuk-tuk emoji adds travel energy -->
 </section>
 --- /code ---
 
 </div>
 
 ### Step 3
-**Test:** Preview your page and confirm the middle row shows three photos with the printed-photo styling.
+**Test:** Run your project and check that the page now has an emoji row, a photo row, and a second emoji row.

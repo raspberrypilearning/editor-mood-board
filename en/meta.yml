@@ -9,7 +9,6 @@ copyedit: true
 last_tested: "2021-03-26"
 landing: true
 steps:
-  - title: Build a mood board webpage
   - title: Update your page text
   - title: Apply your colour theme
     completion:

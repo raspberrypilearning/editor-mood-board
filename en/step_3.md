@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Apply your colour theme</h2>
+<h2 class="c-project-heading--task">Create a three-row layout</h2>
 
 ### Step 1
-Choose a theme stylesheet and apply colour classes so the page picks up your mood board palette.
+Replace the single placeholder section with three content rows to structure your mood board.
 
 ### Step 2
-Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
+Update the `<main>` area in `index.html`.
 
 <div class="c-project-code">
 
@@ -13,56 +13,22 @@ Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 23, 26
+line_number_start: 33
+line_highlights: 34, 37, 40
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<main>
+  <section class="wrap"> <!-- Top row for icon content -->
+  </section>
 
-    <!-- Title shown in web browsers -->
-    <title>Travel inspiration 🐅</title>
+  <section class="wrap page"> <!-- Middle row for photos -->
+  </section>
 
-    <!-- Import fonts from Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Codystar:wght@300&family=Creepster&family=Eater&family=Faster+One&family=Finger+Paint&family=Flavors&family=Freckle+Face&family=Fredericka+the+Great&family=Gorditas&family=Hanalei+Fill&family=Lobster&family=Luckiest+Guy&family=Miltonian&family=Monoton&family=Ranchers&family=Rubik+Moonrocks&family=Shrikhand&family=Spirax&family=Titan+One&Bebas+Neue&Cairo&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Include CSS style file -->
-
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="animation.css" rel="stylesheet" type="text/css" />
-    <link href="land-animals.css" rel="stylesheet" type="text/css" /> <!-- Loads one of the starter colour themes -->
-  </head>
-
-  <body class="tertiary"> <!-- Applies your chosen background and text colours -->
-    <!-- The page header code goes here -->
-    <header class="border-bottom secondary">
-      <h1>Travel Inspiration</h1>
-    </header>
-
-    <!-- The main content for the web page goes between the main tags -->
-    <main>
-      <section>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </section>
-    </main>
-
-    <!-- Footer code goes here -->
-    <footer class="border-top secondary">
-      <p>Colours of India</p>
-    </footer>
-  </body>
-</html>
+  <section class="wrap"> <!-- Bottom row for icon content -->
+  </section>
+</main>
 --- /code ---
 
 </div>
 
 ### Step 3
-**Test:** Run the project and check that the page background, header, and footer use your chosen theme colours.
+**Test:** Preview the page and confirm you can see three separate horizontal rows with spacing between them.

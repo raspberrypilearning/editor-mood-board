@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Create a three-row layout</h2>
+<h2 class="c-project-heading--task">Add your first emoji row</h2>
 
 ### Step 1
-Replace the single placeholder section with three content rows to structure your mood board.
+Fill the top row with large emoji to set the first part of your mood.
 
 ### Step 2
-Update the `<main>` area in `index.html`.
+Add emoji to the first `<section class="wrap">`.
 
 <div class="c-project-code">
 
@@ -13,22 +13,17 @@ Update the `<main>` area in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 33
-line_highlights: 34, 37, 40
+line_number_start: 34
+line_highlights: 35, 36, 37
 ---
-<main>
-  <section class="wrap"> <!-- Top row for icon content -->
-  </section>
-
-  <section class="wrap page"> <!-- Middle row for photos -->
-  </section>
-
-  <section class="wrap"> <!-- Bottom row for icon content -->
-  </section>
-</main>
+<section class="wrap"> <!-- Top row for icon content -->
+  <div class="hugefont">🐅</div> <!-- Tiger emoji adds wildlife mood -->
+  <div class="hugefont">🐘</div> <!-- Elephant emoji reinforces the theme -->
+  <div class="hugefont">🐂</div> <!-- Bull emoji completes the first trio -->
+</section>
 --- /code ---
 
 </div>
 
 ### Step 3
-**Test:** Preview the page and confirm you can see three separate horizontal rows with spacing between them.
+**Test:** Run your project and check that three large emoji appear in the top row.
