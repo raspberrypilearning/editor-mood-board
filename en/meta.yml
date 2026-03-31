@@ -7,6 +7,7 @@ version: 4
 listed: false
 copyedit: true
 last_tested: "2021-03-26"
+landing: true
 steps:
   - title: Build a mood board webpage
   - title: Update your page text
@@ -23,5 +24,5 @@ steps:
   - title: Add depth with shadows
     completion:
       - external
-  - title: Challenge - add a custom section
+  - title: Challenge!
     challenge: true
