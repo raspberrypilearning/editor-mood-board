@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Create a three-row layout</h2>
 
---- task ---
+### Step 1
 Replace the single placeholder section with three content rows to structure your mood board.
---- /task ---
 
---- task ---
+### Step 2
 Update the `<main>` area in `index.html`.
 
 <div class="c-project-code">
@@ -30,8 +29,6 @@ line_highlights: 34, 37, 40
 --- /code ---
 
 </div>
---- /task ---
 
---- task ---
+### Step 3
 **Test:** Preview the page and confirm you can see three separate horizontal rows with spacing between them.
---- /task ---

@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Add depth with shadows</h2>
 
---- task ---
+### Step 1
 Enhance your photo strip by adding a shadow effect that makes each image stand out.
---- /task ---
 
---- task ---
+### Step 2
 Add the `shadow` class to each photo in your middle row.
 
 <div class="c-project-code">
@@ -25,8 +24,6 @@ line_highlights: 41, 42, 43
 --- /code ---
 
 </div>
---- /task ---
 
---- task ---
+### Step 3
 **Test:** Run your project and confirm each image in the middle row has a visible shadow.
---- /task ---

@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Add your first emoji row</h2>
 
---- task ---
+### Step 1
 Fill the top row with large emoji to set the first part of your mood.
---- /task ---
 
---- task ---
+### Step 2
 Add emoji to the first `<section class="wrap">`.
 
 <div class="c-project-code">
@@ -25,8 +24,6 @@ line_highlights: 35, 36, 37
 --- /code ---
 
 </div>
---- /task ---
 
---- task ---
+### Step 3
 **Test:** Run your project and check that three large emoji appear in the top row.
---- /task ---

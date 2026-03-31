@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Add a photo strip</h2>
 
---- task ---
+### Step 1
 Populate the middle row with images to add visual detail to your mood board.
---- /task ---
 
---- task ---
+### Step 2
 Insert three images into the middle section.
 
 <div class="c-project-code">
@@ -25,8 +24,6 @@ line_highlights: 41, 42, 43
 --- /code ---
 
 </div>
---- /task ---
 
---- task ---
+### Step 3
 **Test:** Preview your page and confirm the middle row shows three photos with the printed-photo styling.
---- /task ---
