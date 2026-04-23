@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Update your page text</h2>
 
-### Step 1
 Change the browser title, page heading, and footer text so they match your mood board idea.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Edit the text in `index.html`.
 
 <div class="c-project-code">
@@ -64,5 +64,6 @@ line_highlights: 9, 29, 41
 
 </div>
 
-### Step 3
-**Test:** Run the project and check that the browser tab title, page heading, and footer text have changed.
+## Now run your code
+
+Run the project and check that the browser tab title, page heading, and footer text have changed.

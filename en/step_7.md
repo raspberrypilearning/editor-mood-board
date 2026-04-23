@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Improve spacing in your layout</h2>
 
-### Step 1
 Adjust your CSS spacing rules so the rows feel cleaner and easier to read.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Edit `style.css` to add gaps and tighten item sizes in wrapped rows.
 
 <div class="c-project-code">
@@ -61,5 +61,6 @@ line_highlights: 162, 178, 179
 
 </div>
 
-### Step 3
-**Test:** Refresh your webpage and check that the rows have clearer spacing with less crowding between items.
+## Now run your code
+
+Refresh your webpage and check that the rows have clearer spacing with less crowding between items.

@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Complete the bottom row</h2>
 
-### Step 1
 Finish your layout by adding a second emoji row that balances the page design.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add three more emoji to the final section.
 
 <div class="c-project-code">
@@ -25,5 +25,6 @@ line_highlights: 47, 48, 49
 
 </div>
 
-### Step 3
-**Test:** Run your project and check that the page now has an emoji row, a photo row, and a second emoji row.
+## Now run your code
+
+Run your project and check that the page now has an emoji row, a photo row, and a second emoji row.
