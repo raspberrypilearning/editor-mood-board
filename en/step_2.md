@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Apply your colour theme</h2>
 
-### Step 1
 Choose a theme stylesheet and apply colour classes so the page picks up your mood board palette.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 
 <div class="c-project-code">
@@ -64,5 +64,6 @@ line_highlights: 23, 26
 
 </div>
 
-### Step 3
-**Test:** Run the project and check that the page background, header, and footer use your chosen theme colours.
+## Now run your code
+
+Run the project and check that the page background, header, and footer use your chosen theme colours.
