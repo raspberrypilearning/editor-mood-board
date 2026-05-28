@@ -2,8 +2,6 @@
 
 Change the browser title, page heading, and footer text so they match your mood board idea.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Edit the text in `index.html`.
 
 <div class="c-project-code">
