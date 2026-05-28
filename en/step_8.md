@@ -2,8 +2,6 @@
 
 Enhance your photo strip by adding a shadow effect that makes each image stand out.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add the `shadow` class to each photo in your middle row.
 
 <div class="c-project-code">
