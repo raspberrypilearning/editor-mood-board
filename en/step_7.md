@@ -2,8 +2,6 @@
 
 Adjust your CSS spacing rules so the rows feel cleaner and easier to read.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Edit `style.css` to add gaps and tighten item sizes in wrapped rows.
 
 <div class="c-project-code">

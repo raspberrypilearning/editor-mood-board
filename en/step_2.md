@@ -2,8 +2,6 @@
 
 Choose a theme stylesheet and apply colour classes so the page picks up your mood board palette.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 
 <div class="c-project-code">
