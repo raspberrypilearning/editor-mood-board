@@ -2,8 +2,6 @@
 
 Replace the single placeholder section with three content rows to structure your mood board.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Update the `<main>` area in `index.html`.
 
 <div class="c-project-code">
