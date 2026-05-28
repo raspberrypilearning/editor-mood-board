@@ -2,8 +2,6 @@
 
 Finish your layout by adding a second emoji row that balances the page design.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add three more emoji to the final section.
 
 <div class="c-project-code">
