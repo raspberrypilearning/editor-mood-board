@@ -2,8 +2,6 @@
 
 Fill the top row with large emoji to set the first part of your mood.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add emoji to the first `<section class="wrap">`.
 
 <div class="c-project-code">
