@@ -2,8 +2,6 @@
 
 Populate the middle row with images to add visual detail to your mood board.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Insert three images into the middle section.
 
 <div class="c-project-code">
