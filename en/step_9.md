@@ -2,8 +2,6 @@
 
 Extend your mood board by designing and adding one new section that matches your theme.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Try adding one extra section to `index.html` with your own content.
