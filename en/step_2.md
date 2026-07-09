@@ -1,19 +1,10 @@
-<h2 class="c-project-heading--task">Apply your colour theme</h2>
+## Apply your colour theme
 
 Choose a theme stylesheet and apply colour classes so the page picks up your mood board palette.
 
 Edit the theme stylesheet link and add a class to the `<body>` in `index.html`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 1
-line_highlights: 23, 26
----
+```html filename="index.html" line_numbers="true" line_number_start="1" line_highlights="23,26"
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,9 +49,7 @@ line_highlights: 23, 26
     </footer>
   </body>
 </html>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 

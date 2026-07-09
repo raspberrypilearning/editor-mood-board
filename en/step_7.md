@@ -1,19 +1,10 @@
-<h2 class="c-project-heading--task">Improve spacing in your layout</h2>
+## Improve spacing in your layout
 
 Adjust your CSS spacing rules so the rows feel cleaner and easier to read.
 
 Edit `style.css` to add gaps and tighten item sizes in wrapped rows.
 
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 155
-line_highlights: 162, 178, 179
----
+```css filename="style.css" line_numbers="true" line_number_start="155" line_highlights="162,178,179"
 .wrap {
   /* Make content wrap over multiple rows */
   display: flex;
@@ -55,9 +46,7 @@ line_highlights: 162, 178, 179
   width: 14rem;
   display: block;
 }
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 

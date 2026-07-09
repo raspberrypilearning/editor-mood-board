@@ -1,27 +1,16 @@
-<h2 class="c-project-heading--task">Add depth with shadows</h2>
+## Add depth with shadows
 
 Enhance your photo strip by adding a shadow effect that makes each image stand out.
 
 Add the `shadow` class to each photo in your middle row.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 40
-line_highlights: 41, 42, 43
----
+```html filename="index.html" line_numbers="true" line_number_start="40" line_highlights="41,42,43"
 <section class="wrap page"> <!-- Middle row for photos -->
   <img class="photo shadow" src="sunset.JPG"> <!-- Adds drop shadow for stronger depth -->
   <img class="photo shadow" src="drone.JPG"> <!-- Adds drop shadow for stronger depth -->
   <img class="photo shadow" src="pansies.JPG"> <!-- Adds drop shadow for stronger depth -->
 </section>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 

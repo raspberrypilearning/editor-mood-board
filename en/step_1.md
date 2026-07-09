@@ -1,19 +1,10 @@
-<h2 class="c-project-heading--task">Update your page text</h2>
+## Update your page text
 
 Change the browser title, page heading, and footer text so they match your mood board idea.
 
 Edit the text in `index.html`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 1
-line_highlights: 9, 29, 41
----
+```html filename="index.html" line_numbers="true" line_number_start="1" line_highlights="9,29,41"
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,9 +49,7 @@ line_highlights: 9, 29, 41
     </footer>
   </body>
 </html>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 
