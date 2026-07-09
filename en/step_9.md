@@ -1,30 +1,17 @@
-<h2 class="c-project-heading--task">Challenge!</h2>
+## Challenge!
 
 Extend your mood board by designing and adding one new section that matches your theme.
 
-## Step 1
-
-Try adding one extra section to `index.html` with your own content.
-
-## Step 2
-
-Add a row of three new emoji that match your theme.
-
-## Step 3
-
-Add a short quote, slogan, or sentence about your mood board.
-
-## Step 4
-
-Add another photo to make your gallery longer.
-
-## Step 5
-
-Use a different border or shadow class on one section to make it stand out.
-
-## Step 6
-
-Create a new heading for your extra section.
+> [!CHALLENGE]
+>
+> Try one of these ideas:
+>
+> - Add one extra section to `index.html` with your own content.
+> - Add a row of three new emoji that match your theme.
+> - Add a short quote, slogan, or sentence about your mood board.
+> - Add another photo to make your gallery longer.
+> - Use a different border or shadow class on one section to make it stand out.
+> - Create a new heading for your extra section.
 
 ## Now run your code
 
